@@ -1,1 +1,21 @@
-This a sampl
+Abitlity to configure the attribute names and values in sightly via arbitary text
+
+1. Currently I have a requirement around making data attributes configurable for an anchor. An example use case would be
+
+<a href="#" data-sly-attribute."Name1"="Value1" data-sly-attribute."Name2"="Value2" data-sly-attribute."Name3"="Value3">
+  Click me
+</a>
+
+Where name1,value1,name2,value2,name3,value3 are content authored via a multifield.
+
+I have a sigtly use model logic which processes the multifield and constructs the attributes as an arbitary string given below
+
+ String attribuite = "data-sly-name1=value1 data-sly-name2=value2 data-sly-name3=value3";
+ 
+However, I cannot use this in my sightly html file as shown below
+ 
+ <a href="#" ${attribute}>
+  Click me  
+ </a>
+ 
+Is there a way around it ?? or do I have to resort to JSP's?? Let me know if you need a code sample
