@@ -10,6 +10,9 @@ Custom CLient context  session store which processes a JSON object does not disp
 			if(prop1) contains val1 display teaser1
 
 			However, the nested values like live_videoid , timestamp etc are something that I cant fetch in the store. Refer to attached screenshot and package for more info
+			
+			Package - https://github.com/tejasgit/aem-jabber/blob/master/customstore-1.0-SNAPSHOT.zip
+			Segment Screenshot - https://github.com/tejasgit/aem-jabber/blob/master/segment.png
 
 		
 					JSON Structure
