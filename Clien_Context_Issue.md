@@ -1,4 +1,4 @@
-Custom CLient context  session store which processes a JSON object does not display all the values 
+Custom Client context  session store which processes a JSON object does not display all the values 
 
 			I have created a new session store which reads data from the JSON file and displays the information in the client context. However, when I try to create segments based on the store properties, the generic store property window does not show the nested elements of the JSON. Here is the description
 
